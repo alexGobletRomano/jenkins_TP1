@@ -1,10 +1,5 @@
-mkdir -p /tmp/ajc
-rm -rf /tmp/ajc/*
-echo &apos;
 public class Main {
     public static void main(String[] args) {
         System.out.println(&quot;Hello, World !&quot;) ;
     }
 }
-&apos; &gt; /tmp/ajc/Main.java
-javac /tmp/ajc/Main.java
